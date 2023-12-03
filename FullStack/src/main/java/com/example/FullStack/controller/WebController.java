@@ -13,7 +13,7 @@ public class WebController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "hello";
+        return "helllo";
     }
 
     @PostMapping("/api/submit")
@@ -27,7 +27,7 @@ public class WebController {
         int birthYear = currentYear - age;
 
         // Construct the response message
-        String responseMessage = "You were born in the year " + birthYear;
+        String responseMessage = "You were born in the yearr " + birthYear;
 
         return "{\"message\": \"" + responseMessage + "\"}";
     }
